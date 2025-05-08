@@ -50,12 +50,6 @@ python images2webp.py <input_dir> <output_dir> [options]
 python images2webp.py ./images ./webp --recursive --delete --logfile convert.log
 ```
 
-## 📝 License
+MIT License - see [LICENSE](LICENSE) for details.
 
-MIT License © 2025 [Max Base](https://github.com/BaseMax)
-
-See [LICENSE](LICENSE) for details.
-
-## 🔗 Repository
-
-https://github.com/BaseMax/images2webp
+© 2025 [Max Base](https://github.com/BaseMax)
