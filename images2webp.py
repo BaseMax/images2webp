@@ -39,6 +39,8 @@ def convert_heic_to_image(file_path):
             heif_file.mode,
             heif_file.stride,
         )
+    except pyheif.error.HeifError as e:
+        raise RuntimeError(f"[ERROR] ❌ Failed to read HEIC image: {file_path} - {e}")
     except Exception as e:
         raise RuntimeError(f"Failed to read HEIC image: {e}")
 
